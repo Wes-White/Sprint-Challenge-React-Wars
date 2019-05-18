@@ -5,7 +5,7 @@ import './StarWars.css';
 
 function People (props) {
     return (
-        <div className="characterCard">
+        <div className="character-card">
             <h2>Name:</h2>
             <p>{props.eachChar.name}</p>
             <h2>Gender:</h2>
